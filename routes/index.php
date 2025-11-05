@@ -25,3 +25,7 @@ function setActiveNav($pageName)
     return $currentPage === $pageName ? 'active' : '';
 }
 ?>
+
+<?php
+return ob_get_clean();
+?>
